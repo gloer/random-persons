@@ -1,0 +1,19 @@
+body {
+    background-color: #eee;
+}
+
+#sectionPersoner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 14px;
+}
+
+#sectionPersoner article {
+    background-color: white;
+    padding: 14px;
+    font-family: sans-serif;
+}
+
+#sectionPersoner article img {
+    width: 100%;
+}
